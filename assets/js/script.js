@@ -1,5 +1,4 @@
 // Opening and closing the navigation menu
-
 const ham = document.querySelector(".hamburger");
 const menu = document.querySelector(".navbar-menu");
 
@@ -10,7 +9,6 @@ ham.addEventListener("click", ()=> {
 
 
 // Show or hide the Back to Top button
-
 const nav = document.querySelector(".navbar");
 
 window.addEventListener("scroll", ()=> {
@@ -24,7 +22,6 @@ window.addEventListener("scroll", ()=> {
 
 
 // Adds an "active-link" class to the web page navigation bar navigation link as the user scrolls through each section.
-
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () => {
