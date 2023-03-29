@@ -7,7 +7,9 @@
     scroll-behavior: smooth;
 }
 
+// Variable 
 :root {
+    // Variable Color
     --bs-orange: #f4623a;
     --bs-white: #fff;
     --bs-gray-100: #f8f9fa;
@@ -21,6 +23,7 @@
     --bs-body-bg: #fff;
 }  
 
+// Body
 body {
     font-size: var(--bs-body-font-size);
     background-color: var(--bs-body-bg);
@@ -28,6 +31,7 @@ body {
     line-height: var(--bs-body-line-height);
 }
 
+// Button
 %btn {
     display: inline-block;
     background-color: #f4623a;
@@ -44,6 +48,7 @@ body {
     }    
 }
 
+// hr
 %hr {
     &::after {
         content: '';
@@ -55,12 +60,14 @@ body {
     }
 }
 
+// Flexbox-center
 %flex-c {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+// Flexbox pace-between
 %flex-sb {
     display: flex;
     align-items: center;
